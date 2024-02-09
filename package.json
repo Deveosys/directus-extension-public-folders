@@ -1,0 +1,36 @@
+{
+    "name": "directus-extension-public-folders",
+    "description": "Automatically give Public read access to 'public' folders and subfolders in Directus.",
+    "icon": "extension",
+    "version": "1.0.0",
+    "author": {
+        "name": "Deveosys",
+        "email": "contact@deveosys.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Deveosys/directus-extension-public-folders.git"
+    },
+    "keywords": [
+        "directus",
+        "directus-extension",
+        "directus-custom-hook"
+    ],
+    "type": "module",
+    "directus:extension": {
+        "type": "hook",
+        "path": "dist/index.js",
+        "source": "src/index.ts",
+        "host": "^10.3.1"
+    },
+    "scripts": {
+        "build": "directus-extension build",
+        "dev": "directus-extension build -w --no-minify",
+        "link": "directus-extension link ../extensions"
+    },
+    "devDependencies": {
+        "@directus/extensions-sdk": "10.3.1",
+        "@types/node": "^20.11.16",
+        "typescript": "^5.3.3"
+    }
+}
