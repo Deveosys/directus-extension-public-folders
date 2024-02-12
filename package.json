@@ -2,7 +2,7 @@
     "name": "directus-extension-public-folders",
     "description": "Automatically give Public read access to 'public' folders and subfolders in Directus.",
     "icon": "extension",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "gpl-3.0",
     "author": {
         "name": "Deveosys",
