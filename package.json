@@ -28,7 +28,7 @@
         "build": "directus-extension build",
         "dev": "directus-extension build -w --no-minify",
         "link": "directus-extension link ../extensions",
-        "publish": "npm run build && npm publish"
+        "build-and-publish": "npm run build && npm publish"
     },
     "devDependencies": {
         "@directus/extensions-sdk": "10.3.1",
